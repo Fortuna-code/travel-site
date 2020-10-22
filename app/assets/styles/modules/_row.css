@@ -38,5 +38,22 @@
 	&__medium-8--smaller {
 		width: 63%;
 	}
+
+	@mixin atLarge {
+	&__large-4 {
+		float:left;
+		width: 33.33%;
+	}
 }
+/* Begin Equal Height Rules */
+&--equal-hight-at-large {
+	@mixin atLarge {
+		display: flex;
+	}
+
+	& > div {
+		float: none;
+		display: flex;
+	}
 }
+}}
