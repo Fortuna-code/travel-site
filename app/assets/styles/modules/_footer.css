@@ -1,0 +1,9 @@
+footer {
+	color: #fff;
+	background-color: $mainBlue;
+	padding: 0.5em 0;
+	text-align: center;
+	a {
+		margin: 1em .5em 1.5em;
+	}
+}

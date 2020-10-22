@@ -12,6 +12,7 @@
 
 	&--testimonials {
 		background-color: #e0e6ef;
+		padding-bottom: 0;
 		@mixin atLarge {
 		background-image: url('/assets/images/testimonials-bg.jpg');
 		background-size: cover;
