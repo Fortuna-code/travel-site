@@ -1,10 +1,13 @@
 .large-hero {
   position: relative;
   border-bottom: 10px solid $mainBlue;
+  
   img {
     display: block;
   }
+
   &__text-content {
+    padding-top: 50px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -27,7 +30,7 @@
   &__subtitle {
     font-weight: 300;
     color: $mainBlue;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin: 0;
     @mixin atSmall {
       font-size: 2.9rem;
@@ -36,7 +39,7 @@
 
   &__description {
     color: #FFF;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 100;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
     max-width: 30rem;
